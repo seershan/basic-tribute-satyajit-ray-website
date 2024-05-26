@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.name{
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #615EFC;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-around ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name h1{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+header :hover{
+    background-color: #7E8EF1;
+}
+
+section{
+    background-color: #EEEEEE;
+    color: rgb(29, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parafull{
+    padding-top: 1rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition:ease-in
+}
+
+.parafull h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.textsatya {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    transition: 1s ease-in;
+}
+
+.image1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    transition:ease-in
+}
+
+
+.awwlist{
+    padding-left: 1rem;
+    text-indent: 2rem;
+    line-height: 2rem;
+}
+
+
+.footer a{
+    color:#615EFC;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    
+}
+
+
+footer{
+    color: rgb(98, 97, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 60vw;
+    margin: auto;
+    background-color: #D1D8C5;
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.netind{
+   background-color: #EEEEEE;
+   text-align: center;
+   justify-content: center;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.normie{
+    background-color: #EEEEEE;
+}
